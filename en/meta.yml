@@ -1,14 +1,43 @@
-title: Project title in sentence case
+title: Dishwasher simulator
 hero_image: images/banner.png
-description: A short description of the project
-listed: false
+description: Make a dishwashing game in this Code Club arcade project.
+listed: true
 pdf: false
+landing: true
 steps:
-  - title: What you will make
-  - title: Step title
+  - title: Create the game variables
+  - title: Start with a random dish
+  - title: Set up the rack and cloth
     completion:
-      - engaged      
-  - title: Challenge
-    challenge: true
+      - engaged
+  - title: Make the soap clickable
+  - title: Make the soap grow
+  - title: Make the soap pulse
+  - title: Check whether the dish is clean
+  - title: Show a hand for clean dishes
+  - title: Show the soapy cloth
+  - title: Prepare the first dish
+  - title: Bring the bowl out of the sink
+  - title: Start the scrubbing script
+  - title: Check for soap before scrubbing
+  - title: Scrub through the costumes
+  - title: Finish cleaning the bowl
+  - title: Make the clean bowl draggable
+  - title: Put away the bowl and score
+  - title: Bring out the next dish
+  - title: Copy the dish scripts
+  - title: Choose from all eight dishes
+    completion:
+      - internal
+  - title: Set up the music
+  - title: Start the playlist loop
+  - title: Play the first song
+  - title: Play the second song
+  - title: Complete the playlist
+  - title: Control the music volume
+  - title: Make the skip button clickable
+  - title: Skip to the next song
     completion:
       - external
+  - title: Make it your own
+    challenge: true

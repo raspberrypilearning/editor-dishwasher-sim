@@ -1,45 +1,34 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+## Create the game variables
 
-A brief description - one or two sentences. 
+The starter project is open beside these instructions, with the sprites, costumes, and sounds ready to use. Create the variables and list that will keep track of the game.
 
---- print-only ---
+<h2 class="c-project-heading--explainer">What you need to do</h2>
 
-![ALT TEXT](images/IMAGE.png)
+![The dirty dish sprites included in the starter project.](images/dish-sprites.png)
 
---- /print-only ---
+## Step 1
 
---- no-print ---
+Select the Stage, then open the `Variables`{:class="block3variables"} blocks menu. Make these variables **for all sprites**:
 
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
+- `clean plates`{:class="block3variables"} — this stores the player's score. Leave this variable ticked so it appears on the Stage.
+- `clean`{:class="block3variables"} — this stores a Boolean value that says whether the current dish is clean. **Untick this variable.**
+- `soap`{:class="block3variables"} — this stores a Boolean value that says whether the player has picked up soap. **Untick this variable.**
 
---- /no-print ---
+Make sure the only variable still ticked is `clean plates`{:class="block3variables"}:
+<p align="center"><img src="images/clean-plates.png" alt="The clean plates variable ticked in the Variables menu." width="226" height="68" style="object-fit: contain;"></p>
 
---- no-print ---
+## Step 2
 
-Video embed
+Keep the Stage selected. Choose **Make a List** from the `Variables`{:class="block3variables"} blocks menu and make a list called `stuff`{:class="block3variables"} **for all sprites**.
 
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
+Add `bowl` as the first item in the list. You will add the other dishes later.
 
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
+![The plus button circled on an empty stuff list.](images/add-item-to-list.png)
 
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
-</div>
+Untick the checkbox next to `stuff`{:class="block3variables"} so that the list does not appear on the Stage.
 
---- /no-print ---
+![Unticking the checkbox next to the stuff list in the Variables blocks menu.](images/hide-list.png)
 
-### You will need:
-- a
-- b
-- c
+## Check your project
+
+Check that `stuff`{:class="block3variables"} contains just `bowl`. The starter has no scripts yet: `clean plates`{:class="block3variables"} should be visible on the Stage, while `clean`{:class="block3variables"}, `soap`{:class="block3variables"}, and the list are hidden.
