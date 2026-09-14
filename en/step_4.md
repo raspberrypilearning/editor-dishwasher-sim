@@ -31,3 +31,7 @@ Add another script to the `soap` sprite to make it sit behind the dishes.
 ## Now run your code
 
 Click the green flag, then click the soap on the Stage. You should hear the bubbles sound. The soap should stay in place when you try to drag it; the cloth will change costume after you add that code.
+
+> [!NOTE]
+>
+> `set drag mode [not draggable]` only prevents dragging in full-screen mode. While you test in the editor, you can still drag the soap and other sprites.
